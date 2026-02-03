@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #6c77d6, #132a8f);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:active {
+    color: cyan;
+}
+
+a::after {
+    content: '⬅';
+    color: white;
+    text-decoration: none;
+}
+
+a::before {
+    content: '⮕';
+    color: white;
+    text-decoration: none;
+}
+
+
+#principal {
+    text-align: center;
+}
+
+.avancado {
+    background-color: #6c77d6;
+    box-shadow: 10px 5px 5px rgb(0, 102, 255);
+}
+
+.textos {
+    color: rgb(2, 0, 139);
+}
